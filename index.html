@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quote Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="quote-container" id="quote-container">
+      <div class="quote">
+        <span class="left-quote"><i class="fas fa-quote-left"></i></span>
+        <span class="quote-text" id="quote-text">
+          what you are is what you have been. what you'll be is what you do now
+          .
+        </span>
+        <p class="quote-author" id="quote-author">buddha</p>
+      </div>
+      <div class="button-container">
+        <button class="twitter-btn btn" id="twitter-btn" title="Tweet This!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button class="new-quoute-btn btn" id="new-quoute-btn">
+          new quote
+        </button>
+      </div>
+    </div>
+    <div class="loader" id="loader"></div>
+  </body>
+</html>
